@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Hangman</h1>
+    <canvas id="hangmanCanvas" width="200" height="200"></canvas>
+
+    <p id="wordDisplay"></p>
+    <div id="letterButtons"></div>
+    <div id="letterBank"></div>
+
+    <p id="message"></p>
+    <button id="restartBtn" style="display: none; color: cadetblue">
+      Play Again
+    </button>
+    <div id="resultBox" class="hidden">
+        <p id="resultMessage"></p>
+        <button onclick="restartGame()">Play Again</button>
+      </div>
+      
+    <script src="script.js"></script>
+  </body>
+</html>
