@@ -16,7 +16,10 @@ h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
-
+h5{
+    font-size: xx-small;
+    color: #707070;
+}
 #hangmanCanvas {
     border: 2px solid #f272b2;
     background-color: white;
